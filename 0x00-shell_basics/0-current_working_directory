@@ -1,2 +1,2 @@
 #!/bin/bash
-path=$(realpath" $(pwd)") && echo " current working directory: $path"
+echo " current working directory: $($((realpath"$(pwd)"))"
