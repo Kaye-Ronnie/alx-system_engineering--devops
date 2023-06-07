@@ -1,5 +1,3 @@
 #!/bin/bash
-
-wd=$(pwd)
-path=$(realpath" $wd")
+path=$(realpath" $(pwd)")
 echo " current working directory: $path"
