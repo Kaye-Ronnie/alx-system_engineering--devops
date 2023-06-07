@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo "File type of 'iamfile':$(/tmp/iamfile)"
+echo "/tmp/iamafile: $(file -b /tmp/iamafile)"
