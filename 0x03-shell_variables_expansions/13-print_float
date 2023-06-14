@@ -1,2 +1,2 @@
 #!/bin/bashi
-printf "%.2f\n" $NUM="2.3145"
+printf "%.2f\n" export "$NUM"
